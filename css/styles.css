@@ -48,8 +48,9 @@ body {
 }
 
 .hero {
-    background: url('https://example.com/pizza-hero.jpg') no-repeat center center/cover;
-    height: 90vh;
+    background: url('https://img.freepik.com/free-photo/view-ready-eat-delicious-meal-go_23-2151431806.jpg?t=st=1727808549~exp=1727812149~hmac=da97a275b9c4dcd4a2e20d32e1d58830170222915a677dbd1ff488591df6f19e&w=1380') no-repeat center center/cover;
+    height: 700px;
+    width:1500px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -10,7 +10,7 @@ body {
     color: #333;
 }
 
-/* Header and Navbar */
+
 .header {
     background-color: #ff5733;
     padding: 20px;
@@ -47,7 +47,7 @@ body {
     font-size: 1.8em;
 }
 
-/* Contact Section */
+
 .contact-section {
     padding: 50px 0;
     text-align: center;
@@ -117,7 +117,7 @@ body {
     color: #666;
 }
 
-/* Footer */
+
 footer {
     background-color: #2d2d2d;
     color: white;
@@ -130,7 +130,6 @@ footer {
     margin-left: 15px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .contact-form {
         width: 100%;
@@ -160,7 +159,7 @@ footer, .footer {
     margin-left: 15px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .navbar, .footer-content {
         flex-direction: column;
