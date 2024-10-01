@@ -48,12 +48,13 @@ body {
 
 
 .menu-header {
-    background: url('https://example.com/pizza-banner.jpg') no-repeat center center/cover;
-    height: 70vh;
+    background: url('https://img.freepik.com/free-psd/food-menu-delicious-pizza-web-banner-template_106176-419.jpg?w=1060&t=st=1727798416~exp=1727799016~hmac=7e2315b6aeeca02b80c545e6006880d173d5358094c597000bdd10b36e507f58') no-repeat center center/cover;
+    height: 800px;;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    width:1500px;
 }
 
 .menu-header h2 {
