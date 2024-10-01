@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Domino's Pizza</title>
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Dominos Pizza</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/menu.html">Menu</a></li>
+                <li><a href="/pages/about.html">About Us</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>If you have any questions, comments, or concerns, feel free to reach out to us!</p>
+
+            <form action="/submit-contact-form" method="POST" class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h2>Other Ways to Contact Us</h2>
+                <p>Phone: 9123654780</p>
+                <p>Email: support@dominos.com</p>
+                <p>Address: 123 Pizza Lane, Food City, Pune</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Dominos Pizza. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/dominospizzaindia/"><img src="/images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/dominos_india/"><img src="/images/instagram.png" alt="Instagram"></a>
+                <a href="https://x.com/Dominos"><img src="/images/twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+                    
